@@ -1,0 +1,100 @@
+/*--------------FOOTER-------*/
+footer{
+	width: 100%;
+  	background: #262829;
+  	.inner_footer{
+		width: 1170px;
+		display:block;
+		margin: 0 auto;
+		border-bottom: 1px solid #323334;
+		> div{
+			width:14%;
+			display: inline-block;
+			padding: 90px 15px;
+			&:first-child{
+				width: 40%;
+				float: left;
+			}
+			&:nth-child(2){
+				width: 20%;
+				float:left;
+			}
+		}
+		h4{
+			color: #e1e1e1;
+			text-transform: uppercase;
+			font-family: 'Montserrat';
+			font-weight: 700;
+			font-size: 20px;
+			padding: 0 0 15px 0;
+		}
+		p{
+			font-family: 'Roboto', sans-serif;
+			color: #838b8c;
+			font-size: 15px;
+			padding: 0 100px 0 0;
+		}
+		form{
+			margin: 45px 0 0 0;
+		}
+		input[type="email"]{	
+			background: #323334;
+			border:1px solid #323334;
+			border-radius: 50px;
+			padding: 15px 150px 15px 35px;
+			font-size: 13px;
+			color: #5e5e5e;
+			font-weight: 600;
+			outline:0;
+			outline-offset:0;
+		}
+		button{
+			margin:-48px 0 0 300px;
+			padding: 15px 35px;
+			background: $bottoms_green;
+			border: 1px solid $bottoms_green;
+			border-radius: 50px;
+			color: $body_color;
+			text-transform: uppercase;
+			font-weight: 600;
+			float: left;
+			position: relative;
+			outline:0;
+			outline-offset:0;
+			&:hover{
+				background: $hoverBt_green;
+			}
+		}
+		ul{
+			display: none;
+			margin: 0;
+			float: left;
+			display: table;
+			li{
+				display: block;
+				
+				a{
+					font-size: 13px;
+					display: block;
+					line-height: 30px;	
+					color: black;
+					text-transform: uppercase;
+					color: #838b8c;
+					font-weight: 600;
+					&:hover{
+						color: #ffac56;
+					}
+					&:active{
+						color: #ffac55;
+					}		
+				}
+			}
+		}	
+	}
+	.copiwrite{
+		font-family: 'Roboto', sans-serif;
+		color:#838b8c;
+		padding: 25px 0 50px 0;
+		text-align: center;
+	}
+}

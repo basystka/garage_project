@@ -1,0 +1,77 @@
+@import "variables";
+@import "header";
+@import "industries";
+@import "about_us";
+@import "stand_out";
+@import "happy_clients";
+@import "our_blog";
+@import "contacts";
+@import "footer";
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i');
+*{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	list-style-type: none;
+}
+a:link,
+a:visited,
+a:hover,
+a:focus,
+a:active
+{
+	text-decoration: none;
+}
+a:active{
+}
+body{
+	background: $body_color;
+	font-size: 15px;
+	font-color: #344256;
+}
+.clearfix{
+	clear: both;
+	float: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

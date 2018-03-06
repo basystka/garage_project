@@ -1,0 +1,46 @@
+/*------------CONTACTS US----------------*/
+.contacts{
+	width: 100%;
+  	background: $body_color;
+  	.inner_contacts{
+		width: 1170px;
+		display:block;
+		margin: 0 auto;
+		h2{
+			font-size: .93em;
+			text-transform: uppercase;
+			padding: 90px 0 0 15px;
+ 			color: #898e8f;
+ 			span{
+ 				font-size: 2.13em;
+ 				color: #343a3b;
+ 			}
+ 		}
+ 		> div{
+			display: inline-block;
+			width: 31%;
+			border: 1px solid #e1eaec;
+			margin: 30px 10px 100px 10px;
+			background: url(../img/email.png) 30px 50% no-repeat;
+			&:nth-child(3){
+				background-image: url(../img/call.png);
+			}
+			&:nth-child(4){
+				background-image: url(../img/career.png);	
+			}
+			p{
+				color: #343a3b;
+				padding: 30px 20px 20px 125px;
+				text-align:left;
+				font-size: 18px;
+				font-family: 'Montserrat';
+				font-weight: 700;
+				text-transform:uppercase;
+			}
+			span{
+				font-family: 'Roboto', sans-serif;
+				text-transform: none;
+			}
+		}	
+ 	}
+}

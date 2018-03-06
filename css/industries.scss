@@ -1,0 +1,113 @@
+/*------INDUSTRIES------*/
+section{
+	display: block;
+	position: relative;
+	width: 100%;
+	background: #918488 url(../img/craftsman.jpg) 50% 50% / cover no-repeat;
+	margin: 0 auto;
+	.main{
+		display: block;
+		position: relative;
+		width: 1170px;
+		margin: 0 auto;
+		padding: 300px 0 0;
+		.square_info{
+			width: 458px;
+			background: #03b6e7;
+			padding-bottom:5px;
+			h3{	
+				background: #ffac56;
+				font-size: 1.4em;
+				text-transform: uppercase;
+				padding: 15px 15px 15px 40px;
+				color: $body_color;	
+			}
+			.square-middle{
+				li{
+					display: block;
+					float: left;
+					width: 50%;
+					box-sizing: border-box;
+					border-bottom: 1px solid $square_bordercolor;
+					border-left: 1px solid $square_bordercolor;
+					&:nth-child(2) a{
+						background-image: url(../img/openers.png);
+					}
+					&:nth-child(3) a{
+						background-image: url(../img/cables.png);
+					}
+					&:nth-child(4) a{
+						background-image: url(../img/springs.png);
+					}
+					a{
+						display: block;
+						color: $body_color;
+						text-transform: uppercase;
+						font-size: 0.94em;
+						padding: 75px 0 25px 40px;
+						position: relative;
+						line-height: 2em;
+						background: url(../img/doors.png) 23% 25% no-repeat;
+						&::after{
+							display: inline-block;
+							box-sizing: border-box;
+							content: '›';
+							position: absolute;
+							float: right;
+							width: 26px;
+							height: 26px;
+							font-size: 26px;
+							border: 2px solid;
+							color: #7ce2fe;
+							border-radius: 100%;
+							right: 25px;
+							padding-left: 8px;
+							line-height: 18px;
+							font-weight: 500;
+						}
+						&:hover,
+						&:focus{
+							background-color: $square_bordercolor;
+							&::after,
+							&::after{
+								color: $body_color;
+							}
+						}
+					}
+				}
+			}
+			dl{
+				display: block;
+				background: #03b6e7 url(../img/man.png) 15px 50% no-repeat;
+				box-sizing: border-box;
+				min-height: 130px;
+				position: relative;
+				padding:25px 20px 5px 133px;
+				margin: 5px 0 0;
+				a{
+					color: $body_color;
+					text-align: center;
+					padding:0 20px 0 53px;
+					background:$bottoms_green url(../img/phone.png) 5% 50% no-repeat;
+					border-radius: 23px;
+					display: block;
+					font-weight: 700;
+					font-size: 2em;
+					line-height: 1.5;
+					font-family: 'Montserrat', sans-serif;
+					&:hover{
+						background: $hoverBt_green url(../img/phone.png) 5% 50% no-repeat;
+					}
+				}		
+			}	
+			dt{
+				color: $body_color;
+				text-align: center;
+				font-family: 'Roboto', sans-serif;
+				letter-spacing: 1px;
+				font-size: 20px;
+				padding-bottom: 5px;
+			}
+		}
+	}
+}

@@ -1,0 +1,52 @@
+/*------STAND_OUT------*/
+.stand_out{
+	width: 100%;
+	background: #e7eff1;
+	.inner_stand_out{
+		width: 1170px;
+    	margin: 0 auto; 
+		p{
+			font-family:'Roboto', sans-serif;
+        	font-size: 15px;
+         	padding: 0 60px 0 15px;
+        	color: #838b8c;
+		}
+		> div{
+			display: inline-block;
+			width: 33.3%;
+			height: 350px;
+			float: left;
+			&:nth-child(2){
+				background: url(../img/clock.png) 15px 20px no-repeat;	
+			}
+			&:nth-child(3){
+				background: url(../img/repairman.png) 15px 20px no-repeat;
+			}
+			&:nth-child(4){
+				background: url(../img/pin.png) 15px 20px no-repeat;	
+			}
+		}	
+		h2{
+			font-size: .93em;
+			text-transform: uppercase;
+			color: #898e8f;
+			padding: 90px 0 0 15px;
+			span{
+				font-size: 2.13em;
+				color: #343a3b;
+			}
+		}
+		h3{
+			color: $bottoms_green;
+      		font-size: 20px;
+      		padding: 110px 0 20px 15px;
+      		line-height: 30px;
+		}	
+		span{
+			color: #343a3b;
+			font-weight: 700;
+			text-transform: uppercase;
+		}		
+	}
+}
+

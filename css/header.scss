@@ -1,0 +1,44 @@
+/*------HEADER-----*/
+header{
+	font-weight: 500;
+	nav{
+		width: 1170px;
+		margin: 0 auto;
+		.logo{
+			display: block;
+			float: left;
+			background: url(../img/logo.png) 15px 15px no-repeat;
+			padding-top:81px;
+			width: 388px;
+			text-indent: -9999px;
+		}
+		ul{
+			display: none;
+			margin: 0;
+			float: right;
+			display: table;
+			li{
+				display: table-cell;
+				&:hover{
+					background: #f6f9fa;
+				}
+
+				a{
+					font-size: 16px;
+					display: block;
+					line-height: 100px;
+					padding: 0 8px;
+					color: black;
+					text-transform: uppercase;
+					color: #344256;
+					&:hover{
+						color: #000;
+					}
+					&:active{
+						color: #ffac55;
+					}		
+				}
+			}
+		}
+	}
+}

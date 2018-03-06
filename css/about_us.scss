@@ -1,0 +1,91 @@
+/*-------------ABOUT US-------------*/
+.about{
+	display: block;
+    margin: 0 auto;
+    width:1170px;
+    height: 444px;
+    background-color: $body_color;     
+    .about_left{
+    	display: block;
+        width: 585px;
+		float: left;
+     	margin-top: 95px;
+        padding-right: 30px;
+        h1{
+        	font-size: 0.93em;
+	        text-transform: uppercase;
+	        color: #898e8f;
+            font-weight: 500;
+            text-align: right;
+            line-height: 1.2;
+            span{
+            	font-size: 2.13em;
+                font-weight: 700;
+                color: #343a3b;
+            }
+        }
+	    p{
+	    	text-align: right;
+	        font-family: 'Roboto', sans-serif;
+	        font-size: 1.06em;
+	        padding: 0 0 20px 60px;
+	        color: #898e8f;
+	        line-height: 1.3;
+	        a{
+	        	color: $body_color;
+	            font-size: 0.87em;
+	            background: $bottoms_green;
+	            padding: 15px 26px;
+	            text-align: center;
+	            text-transform: uppercase;
+	            border-radius: 23px;
+	          	font-weight: 600;
+	          	&:hover{
+	          		background: $hoverBt_green;
+	          	}
+	        }
+	    }
+    }
+	.about_right{
+	  display: block;
+	  float: left;
+	  position: relative;
+	  width: 40%;
+	  height: 256px;
+	  margin-top: 95px;
+	  background: url(../img/handshake.jpg) no-repeat;
+	  .award{
+		  position: absolute;
+		  box-sizing: border-box;
+		  box-shadow: 0 9px 16px rgba(#9a9a9a, .3);
+		  width: 238px;
+		  height: 280px;
+		  background-color: #03b6e7;
+		  border: 6px solid $body_color;
+		  top: 163px;
+		  left: 25%;
+		  .inner_award{
+			  margin-left: 20px;
+			  border: 1px solid #35c5ec;
+			  width: 191px;
+			  height: 233px;
+			  margin-top: 15px;
+			  box-sizing: border-box;
+			  background: url(../img/medal.png) 36px -21px no-repeat;
+			  p{
+			  	font-size: 5em;
+			  	text-align: center;
+			  	color: $body_color;
+			  	line-height: 20px;
+			  	padding-top: 150px;
+			  	font-weight: 600;
+				  	span{
+				  		font-size: 10px;
+				  		text-transform: uppercase;
+				  		line-height: 10px;
+				  	}
+			  	}
+			}
+		}
+	}
+}
